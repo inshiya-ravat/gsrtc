@@ -9,7 +9,6 @@ body {
 header {
   background-color: #e2f2fa;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   position: fixed;
   padding: 1px 35px;
@@ -41,8 +40,7 @@ a:hover {
   gap: 5px;
 }
 .header-options div {
-  display: flex;
-  flex-direction: row;
+  display: flex;  
   gap: 10px;
 }
 /* .header-options button{
@@ -53,7 +51,6 @@ a:hover {
 } */
 .a-with-icon {
   display: flex;
-  flex-direction: row;
   gap: 2px;
 }
 .a-with-icon svg {
@@ -81,7 +78,7 @@ a:hover {
   margin-top: 5px;
 }
 .header-options-first img {
-  margin-top: 0.9rem;
+  margin-top: 0.4rem;
 }
 #track {
   padding: 0;
@@ -154,7 +151,6 @@ a:hover {
 .search-bus-section {
   position: relative;
   top: 17%;
-  /* left: 0%; */
   right: 5%;
 }
 .search-bus-section > input {
@@ -165,8 +161,8 @@ a:hover {
   border-radius: 5px;
   border: none;
 }
-[type="date"] {
-  width: 8rem !important;
+.search-bus-section > #date-input {
+  width: 8rem;
   height: 2rem;
   padding: 5px;
   margin-right: 10px;
