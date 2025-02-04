@@ -1,5 +1,4 @@
 ## GSRTC clone
-
 This is a static clone of the Gujarat State Road Transport Corporation(GSRTC) website. The project is built using only HTML and CSS, without any Javascript.
 
 ## Features
