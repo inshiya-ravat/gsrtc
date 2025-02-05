@@ -5,6 +5,7 @@ body {
   font-size: 0.8rem;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 header {
   background-color: #e2f2fa;
@@ -109,6 +110,7 @@ a:hover {
   border: none;
   width: 9.8rem;
   height: 2.5rem;
+  font-size: medium;
 }
 .booking-section-btn {
   background-color: #0099cc;
@@ -117,6 +119,7 @@ a:hover {
   border: none;
   width: 9.8rem;
   height: 2.5rem;
+  font-size: medium;
 }
 .booking-section-btn:hover {
   background-color: #006699;
@@ -136,6 +139,7 @@ a:hover {
   color: white;
   width: 9.8rem;
   height: 2.5rem;
+  font-size: medium;
 }
 .blink:hover {
   animation-play-state: paused;
@@ -177,6 +181,11 @@ a:hover {
   border-radius: 5px;
   border: none;
 }
+.search-bus-section > input:focus, .search-bus-section > #date-input:focus, .search-bus-section > select:focus{
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
 .search-bus-section label {
   color: white;
   margin-right: 10px;
@@ -189,11 +198,83 @@ a:hover {
   border-radius: 5px;
 }
 
-/* growing numbers  */
-.gorwing-numbers-article{
+/* section - 1  */
+main > section{
     background-color: white;
     min-height: 50vh;
     position: absolute;
     width: 100%;
     top: 53%;
+}
+.growing-num > h1{
+    color: #123d6f;
+    font-size: 1.6rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 19%;
+    margin-bottom: 0.5rem;
+}
+.growing-num svg{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.growing-num > div{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+.purple-gradient{
+    padding: 20px;
+    background: linear-gradient(to right, #1b0778, #2e1c92, #402eae, #5142ca, #6155e7);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 17.8rem;
+}
+.pink-gradient{
+    padding: 20px;
+    background: linear-gradient(to right, #7e1253, #90145c, #a21764, #b4196c, #c71b74);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 17.8rem;
+}
+.orange-gradient{
+    padding: 20px;
+    background: linear-gradient(to right, #b35d00, #c56400, #d76b00, #ea7200, #fd7900);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 17.8rem;
+}
+.green-gradient{
+    padding: 20px;
+    background: linear-gradient(to right, #0f4c02, #165f05, #1d730a, #238811, #2a9d17);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 17.8rem;
+}
+.purple-gradient div, .pink-gradient div, .orange-gradient div, .green-gradient div{
+    padding: 10px 20px 20px 20px;
+}
+.purple-gradient a, .pink-gradient a, .orange-gradient a, .green-gradient a{
+    color: white;
+    font-size: medium;
+    padding: 5px;
+}
+.purple-gradient a:hover, .pink-gradient a:hover, .orange-gradient a:hover, .green-gradient a:hover{
+    text-decoration: underline;
+}
+.purple-gradient h4, .pink-gradient h4, .orange-gradient h4, .green-gradient h4{
+    font-size: xx-large;
+    font-weight: normal;
+    padding: 10px;
+    margin: 0;
+}
+.purple-gradient p, .pink-gradient p, .orange-gradient p, .green-gradient p{
+    margin: 0;
 }
