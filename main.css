@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 0.8rem;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: #e2f2fa;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1px 35px;
+  min-width: 100vw;
+  min-height: 50px;
+}
+header p {
+  margin: 0;
+  padding: 5px;
+}
+marquee {
+  background-color: #ebebeb;
+  border-top: 1px solid #c9c9cd;
+  padding: 10px;
+  position: fixed;
+  top: 9%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+a:hover {
+  color: blue;
+}
+.header-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.header-options div {
+  display: flex;  
+  gap: 10px;
+}
+/* .header-options button{
+    background-color: #1937B2;
+    color: white;
+    border: none;
+    float: right;
+} */
+.a-with-icon {
+  display: flex;
+  gap: 2px;
+}
+.a-with-icon svg {
+  vertical-align: middle;
+}
+.a-with-icon p {
+  vertical-align: middle;
+  margin: 0;
+}
+.option-bold {
+  font-weight: bold;
+}
+.option-light {
+  color: #666;
+  margin-top: 4px;
+}
+#eng-border {
+  border-right: 2px solid red;
+  height: 1.5rem;
+}
+#option-red {
+  color: red;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+.header-options-first img {
+  margin-top: 0.4rem;
+}
+#track {
+  padding: 0;
+}
+
+/* main  */
+
+.record-img-section img {
+  width: 100%;
+  margin-top: 5.2rem;
+}
+.booking-section {
+  background-color: #173c62;
+  align-content: center;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  height: 114px;
+  gap: 0;
+}
+#adv-booking {
+  background-color: white;
+  color: red;
+  padding: 10px;
+  border: none;
+  width: 9.8rem;
+  height: 2.5rem;
+}
+.booking-section-btn {
+  background-color: #0099cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 9.8rem;
+  height: 2.5rem;
+}
+.booking-section-btn:hover {
+  background-color: #006699;
+}
+@keyframes blink-effect {
+  50% {
+    background: linear-gradient(to right, red, orange);
+  }
+  to {
+    background: #173c62;
+  }
+}
+.blink {
+  animation: blink-effect 1s steps(2, start) infinite;
+  padding: 10px;
+  border: none;
+  color: white;
+  width: 9.8rem;
+  height: 2.5rem;
+}
+.blink:hover {
+  animation-play-state: paused;
+}
+.booking-options {
+  position: absolute;
+  top: 0%;
+  left: 19%;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+  text-align: start;
+}
+.search-bus-section {
+  position: relative;
+  top: 17%;
+  right: 5%;
+}
+.search-bus-section > input {
+  width: 18rem;
+  height: 2rem;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.search-bus-section > #date-input {
+  width: 8rem;
+  height: 2rem;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.search-bus-section > select {
+  width: 4rem;
+  height: 2rem;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.search-bus-section label {
+  color: white;
+  margin-right: 10px;
+}
+.search-bus-section button {
+  background-color: #f00;
+  height: 2.5rem;
+  color: white;
+  border-color: #357ebd;
+  border-radius: 5px;
+}
+
+/* growing numbers  */
+.gorwing-numbers-article{
+    background-color: white;
+    min-height: 50vh;
+    position: absolute;
+    width: 100%;
+    top: 53%;
+}
