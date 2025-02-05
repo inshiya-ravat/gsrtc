@@ -110,6 +110,7 @@ a:hover {
   border: none;
   width: 9.8rem;
   height: 2.5rem;
+  font-size: medium;
 }
 .booking-section-btn {
   background-color: #0099cc;
@@ -118,6 +119,7 @@ a:hover {
   border: none;
   width: 9.8rem;
   height: 2.5rem;
+  font-size: medium;
 }
 .booking-section-btn:hover {
   background-color: #006699;
@@ -137,6 +139,7 @@ a:hover {
   color: white;
   width: 9.8rem;
   height: 2.5rem;
+  font-size: medium;
 }
 .blink:hover {
   animation-play-state: paused;
