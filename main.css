@@ -15,6 +15,7 @@ header {
   padding: 1px 35px;
   min-width: 100vw;
   min-height: 50px;
+  z-index: 10;
 }
 header p {
   margin: 0;
@@ -44,12 +45,6 @@ a:hover {
   display: flex;
   gap: 10px;
 }
-/* .header-options button{
-    background-color: #1937B2;
-    color: white;
-    border: none;
-    float: right;
-} */
 .a-with-icon {
   display: flex;
   gap: 2px;
@@ -88,7 +83,7 @@ a:hover {
 /* main  */
 
 .record-img-section img {
-  width: 100%;
+  width: 99.1vw;
   margin-top: 5.2rem;
 }
 .booking-section {
@@ -202,7 +197,7 @@ a:hover {
 }
 
 /* section - 1  */
-main > section {
+.section-info {
   background-color: white;
   min-height: 50vh;
   position: absolute;
@@ -379,4 +374,99 @@ main > section {
   100% {
     transform: translateX(calc(-200px));
   }
+}
+
+/* footer  */
+.footer{
+    background-color: #173c62;
+    position: absolute;
+    top: 135%;
+    width: 100%;
+    padding: 20px 0px;
+}
+.footer-options{
+    display: flex;
+    padding: 0px 15px;
+    margin: 0px 50px;
+    justify-content: center;
+}
+.footer-item{
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+.footer-item div{
+    background-color: #E8E8E8;
+    border-radius: 1000%;
+    width: 15px;
+    color: black;
+    text-align: center;
+}
+.footer-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0 0 0 5px;
+}
+.footer-item a:hover{
+    text-decoration: none;
+    color: #ffff99;;
+}
+.footer-bottom{
+    display: flex;
+    gap: 12rem;
+    color: white;
+    padding: 0px 15px;
+    margin: 0px 50px;
+    justify-content: center;
+}
+.copyright{
+    font-size: 0.9rem;
+}
+.app-container{
+    display: flex;
+}
+.app-download{
+    font-size: 0.9rem;
+    display: flex;
+    margin: 14.4px;
+}
+.app-download a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+.app-download a:hover{
+    color: #006699;
+}
+#app-download-id{
+    border-right: 1px solid white;
+}
+.toll{
+    font-size: medium;
+    text-align: center;
+}
+.toll b{
+    font-size: large;
+}
+.go-to-top{
+    text-align: center;
+    margin-top: 10px;
+}
+.social-media-container > div, .browser-container > div{
+    display: flex;
+    gap: 6px;
+}
+.social-media-container p, .broswer-container p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.browser-container > p{
+    margin: 0px;
+}
+.social-media-container svg{
+    border-radius: 50%;
+}
+.social-media-container a{
+    text-decoration: none;
 }
